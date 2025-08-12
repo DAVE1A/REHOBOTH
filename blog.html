@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rehoboth ENT - Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="front.css" />
+    <script src="https://kit.fontawesome.com/80e2906028.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="nav-container">
+                <nav>
+                    <div class="logo">REHOBOTH</div>
+                    <div class="hamburger" onclick="toggleMenu()">☰</div>
+                    <div class="nav-links" id="menu">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown">
+                            <a href="#" class="okaydidnt">
+                                About
+                                <i class="fa-solid fa-fade fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="about.html">Our Story</a>
+                                <a href="about.html">Team</a>
+                                <a href="about.html">Mission & Vision</a>
+                            </div>
+                        </div>
+                        <div class="dropdown2">
+                            <a class="okaydidnt2">
+                                Services
+                                <i class="fa-solid fa-fade fa-angle-down"></i>
+                            </a>
+                            <div class="dropdown-content2">
+                                <a href="treatments.html">Theatre</a>
+                                <a href="OTOLOGY.html">Otology</a>
+                                <a href="rhinology.html">Rhinology</a>
+                                <a href="laryngology.html">Laryngology</a>
+                                <a href="pediatricent.html">Pediatric E.N.T</a>
+                                <a href="audiology.html">Audiology</a>
+                                <a href="integratedservices.html">Integrated Services</a>
+                            </div>
+                        </div>
+                        <a href="facilities.html">Facilities</a>
+                        <a href="blog.html" class="active">Blog</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="head2-container" style="background-image: url(interior-view-operating-room.jpg);">
+                <div class="head2-content">
+                    <span class="spanish">
+                        <h1>BLOG & NEWS</h1>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="the-treats">
+            <div class="under-treats" style="width: 100%; display: flex; flex-direction: column; align-items: center;" >
+                <div class="treat-about" style="border: none; padding: 20px; max-width: 1000px;">
+                    <h2 style="text-align: center; margin-bottom: 40px; font-size: 32px;">Latest Articles & Health Updates</h2>
+                    
+                    <div class="blog-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px;">
+                        <!-- Blog Post 1 -->
+                        <div class="blog-post" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                            <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                <img src="physician-uses-otoscope-young-man.jpg" alt="Blog Post" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="blog-content" style="padding: 20px;">
+                                <div class="blog-date" style="color: #054ed6; font-size: 14px; margin-bottom: 10px;">June 15, 2023</div>
+                                <h3 style="margin-bottom: 15px; font-size: 20px;">Understanding Ear Infections in Children</h3>
+                                <p style="color: #666; margin-bottom: 20px;">Learn about the common causes, symptoms, and treatments for ear infections in pediatric patients.</p>
+                                <a href="#" style="color: #054ed6; text-decoration: none; font-weight: 500;">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Blog Post 2 -->
+                        <div class="blog-post" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                            <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                <img src="woman-working-as-doctor.png" alt="Blog Post" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="blog-content" style="padding: 20px;">
+                                <div class="blog-date" style="color: #054ed6; font-size: 14px; margin-bottom: 10px;">July 2, 2023</div>
+                                <h3 style="margin-bottom: 15px; font-size: 20px;">Advances in Sinus Surgery Techniques</h3>
+                                <p style="color: #666; margin-bottom: 20px;">Discover the latest minimally invasive procedures for chronic sinusitis treatment.</p>
+                                <a href="#" style="color: #054ed6; text-decoration: none; font-weight: 500;">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Blog Post 3 -->
+                        <div class="blog-post" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                            <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                <img src="3d-male-medical-figure-holding-his-throat-pain.jpg" alt="Blog Post" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="blog-content" style="padding: 20px;">
+                                <div class="blog-date" style="color: #054ed6; font-size: 14px; margin-bottom: 10px;">August 10, 2023</div>
+                                <h3 style="margin-bottom: 15px; font-size: 20px;">Managing Seasonal Allergies</h3>
+                                <p style="color: #666; margin-bottom: 20px;">Practical tips for reducing allergy symptoms and when to seek professional help.</p>
+                                <a href="#" style="color: #054ed6; text-decoration: none; font-weight: 500;">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Blog Post 4 -->
+                        <div class="blog-post" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                            <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                <img src="interior-view-operating-room.jpg" alt="Blog Post" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="blog-content" style="padding: 20px;">
+                                <div class="blog-date" style="color: #054ed6; font-size: 14px; margin-bottom: 10px;">September 5, 2023</div>
+                                <h3 style="margin-bottom: 15px; font-size: 20px;">What to Expect During a Tonsillectomy</h3>
+                                <p style="color: #666; margin-bottom: 20px;">A comprehensive guide to preparation and recovery for this common procedure.</p>
+                                <a href="#" style="color: #054ed6; text-decoration: none; font-weight: 500;">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Blog Post 5 -->
+                        <div class="blog-post" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                            <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                <img src="woman-working-as-doctor.png" alt="Blog Post" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="blog-content" style="padding: 20px;">
+                                <div class="blog-date" style="color: #054ed6; font-size: 14px; margin-bottom: 10px;">October 12, 2023</div>
+                                <h3 style="margin-bottom: 15px; font-size: 20px;">Hearing Loss Prevention Strategies</h3>
+                                <p style="color: #666; margin-bottom: 20px;">Protecting your hearing in an increasingly noisy world.</p>
+                                <a href="#" style="color: #054ed6; text-decoration: none; font-weight: 500;">Read More →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Blog Post 6 -->
+                        <div class="blog-post" style="border: 1px solid #ddd; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                            <div class="blog-image" style="height: 200px; overflow: hidden;">
+                                <img src="physician-uses-otoscope-young-man.jpg" alt="Blog Post" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <div class="blog-content" style="padding: 20px;">
+                                <div class="blog-date" style="color: #054ed6; font-size: 14px; margin-bottom: 10px;">November 8, 2023</div>
+                                <h3 style="margin-bottom: 15px; font-size: 20px;">Voice Care for Professionals</h3>
+                                <p style="color: #666; margin-bottom: 20px;">Essential tips for teachers, singers, and others who rely on their voices.</p>
+                                <a href="#" style="color: #054ed6; text-decoration: none; font-weight: 500;">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 50px;">
+                        <button class="learn" style="margin: 0 auto;">Load More Articles</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address</h2>
+                </div>
+
+                <ul>
+                    <li>
+                        Near Niyi Ibikunle Factory, opposite Leisure Springs Hotel, Osogbo 230103, Osun State,
+                        Nigeria.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-logo">
+                <div class="footer-icon">
+                    <i class="fa-solid fa-phone fa-lg"></i>
+                    <h2>Call Us</h2>
+                </div>
+
+                <ul>
+                    <li>+2348068830318</li>
+                    <li>+2348038122154</li>
+                </ul>
+            </div>
+
+            <div class="footer-logo">
+                <div class="footer-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email Us</h2>
+                </div>
+
+                <ul>
+                    <li>doctadedejitaiwo@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        
+       
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("active");
+        }
+        const dropdown = document.querySelector(".dropdown > a", ".dropdown2 > a");
+        dropdown.addEventListener("click", function (e) {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                this.parentElement.classList.toggle("open");
+            }
+        });
+    </script>
+</body>
+
+</html>
